@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "hShop Search",
+  "version": "1.0",
+  "description": "hShop Archive in Firefox Search",
+
+  "icons": {
+    "128": "Icon.png"
+  },
+
+  "chrome_settings_overrides": {
+  "search_provider": {
+    "is_default": false,
+    "name": "hShop",
+    "search_url": "https://hshop.erista.me/search/results?q={searchTerms}",
+    "favicon_url": "https://hshop.erista.me/favicon.ico",
+    "encoding": "UTF-8",
+    "keyword": "@hshop"
+          }
+      }
+}
